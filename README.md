@@ -5,7 +5,7 @@ This repository contains a comprehensive pipeline for **Automatic Drum Transcrip
 ## Project Structure
 The pipeline is structured into 4 key steps:
 
-1. **1: Environment Setup**: Initializes the workspace, installs essential libraries (Demucs for audio separation, Keras Tuner for optimization), and configures the directory structure to interface with Google Drive.
+1. **Environment Setup**: Initializes the workspace, installs essential libraries (Demucs for audio separation, Keras Tuner for optimization), and configures the directory structure to interface with Google Drive.
 2. **Data Engineering & Augmentation**: Processes multi-source datasets (IDMT-SMT and Kaggle). It converts raw audio into Mel Spectrograms and applies advanced augmentation (Time Stretching, Pitch Shifting, and SpecAugment) to ensure model robustness.
 3. **CNN Architecture & Hyperparameter Optimization**: Defines a dynamic Convolutional Neural Network (CNN) architecture. It uses Keras Tuner (Hyperband) to automate the search for optimal hyperparameters (filters, dropout, learning rate) and implements callbacks like EarlyStopping and ReduceLROnPlateau.
 4. **Audio Signal Analysis**: Performs exploratory analysis of target audio tracks using time-domain (waveform) and frequency-domain (log-spectrogram) visualizations to assess signal characteristics before transcription.
