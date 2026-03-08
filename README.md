@@ -1,6 +1,5 @@
 # Automatic Drum Transcription (ADT) Pipeline
 
-## Project Overview
 This repository contains a comprehensive pipeline for **Automatic Drum Transcription (ADT)**. The project leverages deep learning techniques to classify drum components (specifically Kick and Snare) from polyphonic audio signals. The workflow covers the entire lifecycle from data preprocessing and augmentation to model training and hyperparameter optimization.
 
 ## Project Structure
